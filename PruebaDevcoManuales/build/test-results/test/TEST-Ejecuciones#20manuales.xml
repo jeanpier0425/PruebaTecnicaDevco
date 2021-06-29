@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Ejecuciones manuales" tests="2" skipped="0" failures="1" errors="0" timestamp="2021-06-29T02:19:53" hostname="DESKTOP-6DBS85G" time="30.544">
+  <properties/>
+  <testcase name="Inicio de sesion exitoso" classname="Ejecuciones manuales" time="18.302">
+    <failure message="java.lang.AssertionError: esta malo expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: esta malo expected:&lt;1&gt; but was:&lt;0&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at tasks.Realizar.validacion(Realizar.java:20)
+	at stepdefinitions.PruebasManualesStepDefinition.pruebasManuales(PruebasManualesStepDefinition.java:20)
+	at ✽.El usuario abre la pagina(src/test/resources/features/pruebasmanuales.feature:8)
+</failure>
+  </testcase>
+  <testcase name="Inicio de sesion fallido" classname="Ejecuciones manuales" time="12.188"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[21573 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+21615 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+21630 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+21639 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Inicio de sesion exitoso
+---------------------------------------------------------------------------------
+26184 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+30546 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+33885 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+33890 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Inicio de sesion fallido
+---------------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
